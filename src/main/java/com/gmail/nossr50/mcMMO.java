@@ -168,7 +168,7 @@ public class mcMMO extends JavaPlugin {
             getLogger().setFilter(new LogFilter(this));
 
             //Folia lib plugin instance
-            FoliaLib foliaLib = new FoliaLib(this);
+//            FoliaLib foliaLib = new FoliaLib(this);
 
             setupFilePaths();
             generalConfig = new GeneralConfig(getDataFolder()); //Load before skillTools
